@@ -1,0 +1,46 @@
+body {
+	height: 100vh;
+}
+#root {
+	height: 100vh;
+}
+.outer {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background: #2571;
+}
+
+.login-box {
+	padding: 2em;
+	border: solid 1px #0002;
+	background: #fff;
+}
+
+input {
+	font-size: 1em;
+	height: 2.5em;
+	width: 15em;
+	padding: 0 1em;
+}
+button {
+	font-size: 1em;
+	height: 3em;
+	padding: 0 1em;
+	margin: 0.6em 0 0 0;
+	font-weight: bold;
+	border: none;
+	border-radius: 0.2em;
+}
+
+.success-box {
+	background: #3a7;
+	color: #fff;
+}
+
+.label {
+	font-size: 1em;
+	margin: 0 0 1.5em 0;
+	color: #294
+}
